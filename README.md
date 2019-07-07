@@ -17,7 +17,7 @@ Our project employs mobile phones with accelerometers to capture human gestures.
 
 In this section, we present the key technical components of the project: acceleration daemon, recognition engine, iRemote application. Figure 1 illustrates the major components of our system.
 
-Figure 1 System architecture
+![Alt text](/img/picture1.png?raw=true "Figure 1 System architecture")
 
 ### 2.1 The Acceleration Daemon
 To make the application portable, whenever possible we used J2ME (Java 2 Platform, Micro Edition). The acceleration daemon is the first component of our project. Due to the fact that Nokai N95 8gb does not support java Mobile Sensor API, we had to build a Symbian C++ daemon to get the acceleration data from N95 8gb internal accelerometer sensor. The daemon is build using the mobile native language and using sensor API. The daemon runs all the time in the background and it wait until the midlet send a signal to starts reading the acceleration data. The daemon keeps sending the acceleration data until it receives a stop signal from the midlet.
