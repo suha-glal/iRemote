@@ -8,6 +8,7 @@ Abu Dhabi University
 
 This project was under the supervison of Dr. Ashraf Khalil
 
+The application employs mobile devices which contain accelerometers to capture human gestures and interpret the captured gestures. iRemote is an interactive gesture based application built on top of the engine. Using iRemote the user can manipulate the power point presentation by using his/her own gestures.(April, 2010 ). 
 
 ##   Introduction
 Gesture-based interaction is a highly useful technique for computer interaction. Gesture-based interaction falls under the category of natural user interface (NUI).The use of gesture-based interaction has been heavily used in large screen display manipulation as well as gaming market [1]. We predict that Gesture-based interaction is the future of computer interaction, but a lot needs to be done to design robust interfaces adapted to this new medium and specify the kind of applications that benefit the most from this type of interaction.
